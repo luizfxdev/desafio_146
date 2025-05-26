@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labirinto de Cristal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>O Enigma do Labirinto de Cristal</h1>
+        <p class="description">Descubra o menor número positivo que não pode ser formado pela soma de um subconjunto dos elementos</p>
+        
+        <div class="input-group">
+            <label for="numbers">Insira os números (separados por vírgula):</label>
+            <input type="text" id="numbers" placeholder="Ex: 1, 2, 2, 7">
+        </div>
+        
+        <div class="button-group">
+            <button id="detect" style="--clr:#00bfff"><span>DECIFRAR</span><i></i></button>
+            <button id="return" style="--clr:#ff0044"><span>RETORNAR</span><i></i></button>
+        </div>
+        
+        <div class="result-container">
+            <h2>Resultado:</h2>
+            <div id="result" class="result">-</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
